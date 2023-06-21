@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="/src/styles.css" />
+	</head>
+	<body>
+		<header class="header">
+			<nav class="header__nav">
+				<span class="header__nav-logo"
+					><img
+						src="/src/image/png-transparent-graphics-open-drawing-ice-ice-blue-angle-nature.png"
+						alt=""
+				/></span>
+				<ul class="header__nav-list">
+					<div class="header__nav-list-closingItem">
+						<div class="header__nav-list-closingItem-stick"></div>
+						<div class="header__nav-list-closingItem-stick"></div>
+					</div>
+					<li class="header__nav-list-item">
+						<a
+							href=""
+							class="header__nav-list-item-link header__nav-list-item-link-about"
+							>ABOUT</a
+						>
+					</li>
+					<li class="header__nav-list-item">
+						<a
+							href=""
+							class="header__nav-list-item-link header__nav-list-item-link-exchange"
+							>EXCHANGE</a
+						>
+					</li>
+					<li class="header__nav-list-item">
+						<a
+							href=""
+							class="header__nav-list-item-link header__nav-list-item-link-contact"
+							>CONTACT</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="main">
+			<div class="main__info">
+				<h1 class="main__info-title">Ice Exchange</h1>
+				<p class="main__info-description">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur
+					fuga adipisci harum veniam quasi dolore quidem laboriosam eos eveniet
+					aut esse, ea, totam labore magnam delectus. Dignissimos voluptatibus
+					ipsam corrupti? Quam soluta deleniti excepturi necessitatibus dolorum
+					libero ab eligendi! Animi beatae eum quo magni! Veritatis est, earum
+					reprehenderit accusantium vitae ipsam sit, ducimus asperiores quod
+					amet aut? Recusandae, laudantium eum! Veritatis accusamus nobis
+					molestiae expedita, inventore repudiandae, eos tenetur ipsa sed sint
+					repellat rerum tempora numquam provident laborum asperiores commodi
+					culpa doloribus dolores blanditiis officiis amet. Eligendi sint
+					aliquid quidem?
+				</p>
+			</div>
+			<div class="main__exchange">
+				<div class="main__exchange-window">
+					<div class="main__exchange-window-inputwrapper">
+						<input
+							type="text"
+							class="main__exchange-window-inputwrapper-amount"
+							placeholder="Amount of cash"
+							required
+						/>
+						<div class="main__exchange-window-inputwrapperres">
+							<span class="main__exchange-window-inputwrapper-result"></span>
+						</div>
+					</div>
+					<div class="main__exchange-window-selectWrapper">
+						<select
+							name="base-code"
+							id="based"
+							class="main__exchange-window-selectWrapper-selectItem1"
+						>
+							<option value="FROM">FROM</option></select
+						><select
+							name="target-code"
+							id="target"
+							class="main__exchange-window-selectWrapper-selectItem2"
+						>
+							<option value="TO">TO</option>
+						</select>
+					</div>
+					<button class="main__exchange-window-button">Check</button>
+				</div>
+			</div>
+		</main>
+		<footer class="contact">
+			<div class="contact__icon">
+				<a href="https://www.instagram.com/iceaius/" target="_blank"
+					><img
+						class="contact__icon-img"
+						src="/src/image/instagram(1).png"
+						alt="" /></a
+				><a target="_blank" href="https://wa.me/77009566692"
+					><img
+						class="contact__icon-img"
+						src="/src/image/whatsapp(1).png"
+						alt="" /></a
+				><a href="#" onclick='alert("No twitter :(") '
+					><img
+						class="contact__icon-img"
+						src="/src/image/twitter(1).png"
+						alt=""
+				/></a>
+			</div>
+			<div class="contact__email">
+				<a
+					href="mailto:dvaklon82@gmail.com&body=Здравствуйте Айсултан"
+					class="contact__email-emailText"
+					>dvaklon82@gmail.com</a
+				>
+			</div>
+			<div class="contact__name_phone">
+				<span class="contact__name_email-name">Aisultan Aidosov</span
+				><a href="tel:+77774094835" class="contact__name_email-phone"
+					>+7 777 409 4835</a
+				>
+			</div>
+		</footer>
+		<script src="index.js"></script>
+	</body>
+</html>
